@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		047664731DB9F83300042005 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047664721DB9F83300042005 /* main.m */; };
+		047664761DB9F83300042005 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047664751DB9F83300042005 /* AppDelegate.m */; };
+		047664791DB9F83300042005 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047664781DB9F83300042005 /* ViewController.m */; };
+		0476647C1DB9F83300042005 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0476647A1DB9F83300042005 /* Main.storyboard */; };
+		0476647E1DB9F83300042005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0476647D1DB9F83300042005 /* Assets.xcassets */; };
+		047664811DB9F83300042005 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0476647F1DB9F83300042005 /* LaunchScreen.storyboard */; };
+		0476648C1DB9F83300042005 /* LYFStatusBarHUDExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0476648B1DB9F83300042005 /* LYFStatusBarHUDExampleTests.m */; };
+		047664971DB9F83400042005 /* LYFStatusBarHUDExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047664961DB9F83400042005 /* LYFStatusBarHUDExampleUITests.m */; };
+		047664A81DB9FDAE00042005 /* LYFStatusBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 047664A51DB9FDAE00042005 /* LYFStatusBarHUD.bundle */; };
+		047664A91DB9FDAE00042005 /* LYFStatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 047664A71DB9FDAE00042005 /* LYFStatusBarHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		047664881DB9F83300042005 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047664661DB9F83300042005 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0476646D1DB9F83300042005;
+			remoteInfo = LYFStatusBarHUDExample;
+		};
+		047664931DB9F83300042005 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047664661DB9F83300042005 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0476646D1DB9F83300042005;
+			remoteInfo = LYFStatusBarHUDExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0476646E1DB9F83300042005 /* LYFStatusBarHUDExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYFStatusBarHUDExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		047664721DB9F83300042005 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		047664741DB9F83300042005 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		047664751DB9F83300042005 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		047664771DB9F83300042005 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		047664781DB9F83300042005 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0476647B1DB9F83300042005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0476647D1DB9F83300042005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		047664801DB9F83300042005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		047664821DB9F83300042005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047664871DB9F83300042005 /* LYFStatusBarHUDExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYFStatusBarHUDExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0476648B1DB9F83300042005 /* LYFStatusBarHUDExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFStatusBarHUDExampleTests.m; sourceTree = "<group>"; };
+		0476648D1DB9F83300042005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047664921DB9F83300042005 /* LYFStatusBarHUDExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYFStatusBarHUDExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		047664961DB9F83400042005 /* LYFStatusBarHUDExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFStatusBarHUDExampleUITests.m; sourceTree = "<group>"; };
+		047664981DB9F83400042005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047664A51DB9FDAE00042005 /* LYFStatusBarHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LYFStatusBarHUD.bundle; sourceTree = "<group>"; };
+		047664A61DB9FDAE00042005 /* LYFStatusBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYFStatusBarHUD.h; sourceTree = "<group>"; };
+		047664A71DB9FDAE00042005 /* LYFStatusBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYFStatusBarHUD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0476646B1DB9F83300042005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047664841DB9F83300042005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0476648F1DB9F83300042005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		047664651DB9F83300042005 = {
+			isa = PBXGroup;
+			children = (
+				047664701DB9F83300042005 /* LYFStatusBarHUDExample */,
+				0476648A1DB9F83300042005 /* LYFStatusBarHUDExampleTests */,
+				047664951DB9F83400042005 /* LYFStatusBarHUDExampleUITests */,
+				0476646F1DB9F83300042005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0476646F1DB9F83300042005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0476646E1DB9F83300042005 /* LYFStatusBarHUDExample.app */,
+				047664871DB9F83300042005 /* LYFStatusBarHUDExampleTests.xctest */,
+				047664921DB9F83300042005 /* LYFStatusBarHUDExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		047664701DB9F83300042005 /* LYFStatusBarHUDExample */ = {
+			isa = PBXGroup;
+			children = (
+				047664A41DB9FDAE00042005 /* LYFStatusBarHUD */,
+				047664741DB9F83300042005 /* AppDelegate.h */,
+				047664751DB9F83300042005 /* AppDelegate.m */,
+				047664771DB9F83300042005 /* ViewController.h */,
+				047664781DB9F83300042005 /* ViewController.m */,
+				0476647A1DB9F83300042005 /* Main.storyboard */,
+				0476647D1DB9F83300042005 /* Assets.xcassets */,
+				0476647F1DB9F83300042005 /* LaunchScreen.storyboard */,
+				047664821DB9F83300042005 /* Info.plist */,
+				047664711DB9F83300042005 /* Supporting Files */,
+			);
+			path = LYFStatusBarHUDExample;
+			sourceTree = "<group>";
+		};
+		047664711DB9F83300042005 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				047664721DB9F83300042005 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0476648A1DB9F83300042005 /* LYFStatusBarHUDExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				0476648B1DB9F83300042005 /* LYFStatusBarHUDExampleTests.m */,
+				0476648D1DB9F83300042005 /* Info.plist */,
+			);
+			path = LYFStatusBarHUDExampleTests;
+			sourceTree = "<group>";
+		};
+		047664951DB9F83400042005 /* LYFStatusBarHUDExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				047664961DB9F83400042005 /* LYFStatusBarHUDExampleUITests.m */,
+				047664981DB9F83400042005 /* Info.plist */,
+			);
+			path = LYFStatusBarHUDExampleUITests;
+			sourceTree = "<group>";
+		};
+		047664A41DB9FDAE00042005 /* LYFStatusBarHUD */ = {
+			isa = PBXGroup;
+			children = (
+				047664A51DB9FDAE00042005 /* LYFStatusBarHUD.bundle */,
+				047664A61DB9FDAE00042005 /* LYFStatusBarHUD.h */,
+				047664A71DB9FDAE00042005 /* LYFStatusBarHUD.m */,
+			);
+			name = LYFStatusBarHUD;
+			path = ../../LYFStatusBarHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0476646D1DB9F83300042005 /* LYFStatusBarHUDExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0476649B1DB9F83400042005 /* Build configuration list for PBXNativeTarget "LYFStatusBarHUDExample" */;
+			buildPhases = (
+				0476646A1DB9F83300042005 /* Sources */,
+				0476646B1DB9F83300042005 /* Frameworks */,
+				0476646C1DB9F83300042005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYFStatusBarHUDExample;
+			productName = LYFStatusBarHUDExample;
+			productReference = 0476646E1DB9F83300042005 /* LYFStatusBarHUDExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		047664861DB9F83300042005 /* LYFStatusBarHUDExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0476649E1DB9F83400042005 /* Build configuration list for PBXNativeTarget "LYFStatusBarHUDExampleTests" */;
+			buildPhases = (
+				047664831DB9F83300042005 /* Sources */,
+				047664841DB9F83300042005 /* Frameworks */,
+				047664851DB9F83300042005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047664891DB9F83300042005 /* PBXTargetDependency */,
+			);
+			name = LYFStatusBarHUDExampleTests;
+			productName = LYFStatusBarHUDExampleTests;
+			productReference = 047664871DB9F83300042005 /* LYFStatusBarHUDExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		047664911DB9F83300042005 /* LYFStatusBarHUDExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047664A11DB9F83400042005 /* Build configuration list for PBXNativeTarget "LYFStatusBarHUDExampleUITests" */;
+			buildPhases = (
+				0476648E1DB9F83300042005 /* Sources */,
+				0476648F1DB9F83300042005 /* Frameworks */,
+				047664901DB9F83300042005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047664941DB9F83300042005 /* PBXTargetDependency */,
+			);
+			name = LYFStatusBarHUDExampleUITests;
+			productName = LYFStatusBarHUDExampleUITests;
+			productReference = 047664921DB9F83300042005 /* LYFStatusBarHUDExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		047664661DB9F83300042005 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					0476646D1DB9F83300042005 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					047664861DB9F83300042005 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 0476646D1DB9F83300042005;
+					};
+					047664911DB9F83300042005 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 0476646D1DB9F83300042005;
+					};
+				};
+			};
+			buildConfigurationList = 047664691DB9F83300042005 /* Build configuration list for PBXProject "LYFStatusBarHUDExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 047664651DB9F83300042005;
+			productRefGroup = 0476646F1DB9F83300042005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0476646D1DB9F83300042005 /* LYFStatusBarHUDExample */,
+				047664861DB9F83300042005 /* LYFStatusBarHUDExampleTests */,
+				047664911DB9F83300042005 /* LYFStatusBarHUDExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0476646C1DB9F83300042005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047664811DB9F83300042005 /* LaunchScreen.storyboard in Resources */,
+				0476647E1DB9F83300042005 /* Assets.xcassets in Resources */,
+				0476647C1DB9F83300042005 /* Main.storyboard in Resources */,
+				047664A81DB9FDAE00042005 /* LYFStatusBarHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047664851DB9F83300042005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047664901DB9F83300042005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0476646A1DB9F83300042005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047664791DB9F83300042005 /* ViewController.m in Sources */,
+				047664A91DB9FDAE00042005 /* LYFStatusBarHUD.m in Sources */,
+				047664761DB9F83300042005 /* AppDelegate.m in Sources */,
+				047664731DB9F83300042005 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047664831DB9F83300042005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0476648C1DB9F83300042005 /* LYFStatusBarHUDExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0476648E1DB9F83300042005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047664971DB9F83400042005 /* LYFStatusBarHUDExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		047664891DB9F83300042005 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0476646D1DB9F83300042005 /* LYFStatusBarHUDExample */;
+			targetProxy = 047664881DB9F83300042005 /* PBXContainerItemProxy */;
+		};
+		047664941DB9F83300042005 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0476646D1DB9F83300042005 /* LYFStatusBarHUDExample */;
+			targetProxy = 047664931DB9F83300042005 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0476647A1DB9F83300042005 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0476647B1DB9F83300042005 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0476647F1DB9F83300042005 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047664801DB9F83300042005 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		047664991DB9F83400042005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0476649A1DB9F83400042005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0476649C1DB9F83400042005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LYFStatusBarHUDExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.www.LYFStatusBarHUDExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0476649D1DB9F83400042005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LYFStatusBarHUDExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.www.LYFStatusBarHUDExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0476649F1DB9F83400042005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LYFStatusBarHUDExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.www.LYFStatusBarHUDExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYFStatusBarHUDExample.app/LYFStatusBarHUDExample";
+			};
+			name = Debug;
+		};
+		047664A01DB9F83400042005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LYFStatusBarHUDExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.www.LYFStatusBarHUDExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYFStatusBarHUDExample.app/LYFStatusBarHUDExample";
+			};
+			name = Release;
+		};
+		047664A21DB9F83400042005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LYFStatusBarHUDExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.www.LYFStatusBarHUDExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LYFStatusBarHUDExample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		047664A31DB9F83400042005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LYFStatusBarHUDExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.www.LYFStatusBarHUDExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LYFStatusBarHUDExample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		047664691DB9F83300042005 /* Build configuration list for PBXProject "LYFStatusBarHUDExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047664991DB9F83400042005 /* Debug */,
+				0476649A1DB9F83400042005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0476649B1DB9F83400042005 /* Build configuration list for PBXNativeTarget "LYFStatusBarHUDExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0476649C1DB9F83400042005 /* Debug */,
+				0476649D1DB9F83400042005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0476649E1DB9F83400042005 /* Build configuration list for PBXNativeTarget "LYFStatusBarHUDExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0476649F1DB9F83400042005 /* Debug */,
+				047664A01DB9F83400042005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047664A11DB9F83400042005 /* Build configuration list for PBXNativeTarget "LYFStatusBarHUDExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047664A21DB9F83400042005 /* Debug */,
+				047664A31DB9F83400042005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 047664661DB9F83300042005 /* Project object */;
+}
