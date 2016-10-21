@@ -10,5 +10,8 @@
 ##显示加载信息
 [LYFStatusBarHUD showLoading:@"加载中"];
 
+##显示普通信息
+[LYFStatusBarHUD showMessage:@"随便显示！！"];
+
 ##隐藏
 [LYFStatusBarHUD hide];
